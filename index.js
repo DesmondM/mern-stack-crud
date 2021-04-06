@@ -16,7 +16,7 @@ if(process.env.NODE_ENV === 'production'){
     });
 }
 
-const uri = process.env.mongodb || 'mongodb://localhost:27017/mernstack';
+const uri = process.env.mongodb || "mongodb+srv://dbDes:poppie@cluster0.zklft.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 mongoose.connect(uri,
 {
     useNewUrlParser: true,
